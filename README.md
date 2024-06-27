@@ -1,5 +1,5 @@
 # My Portfolio - Oscar Vitela
-This portfolio is created with the help of Shaq Portfolio Template from the following link, special thank to him for being the original designer of the site:
+This portfolio is created with the help of Shaq Portfolio Template from the following link, special thanks to him for being the original designer of the site:
 
 https://github.com/shaqdeff/Portfolio-Template/
 
