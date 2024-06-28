@@ -15,7 +15,7 @@ import SuperHackAttack from './pages/projects/superHackAttack';
 const App = () => {
 
   return (
-    <BrowserRouter basename="/ovitela_porfolio">
+    <BrowserRouter >
       <div className="relative z-0">
         
         <Navbar />
