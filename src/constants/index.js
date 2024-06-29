@@ -202,7 +202,7 @@ const projectsGames = [
     ],
     image: superHackAttack,
     repo: '#',
-    demo: 'http://localhost:5173/super_hack_attack/',
+    demo: '/super_hack_attack/',
   },
   // {
   //   id: 'project-2',
