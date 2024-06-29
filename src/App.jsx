@@ -22,7 +22,7 @@ const App = () => {
         
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/super_hack_attack/" element={<SuperHackAttack />} />
+          <Route path="/super_hack_attack" element={<SuperHackAttack />} />
         </Routes>
         
       </div>
