@@ -6,8 +6,6 @@ import {
 
 const SuperHackAttack = () => {
 
-    console.log("Sending game title: "+gameTitle);
-
     return (
         <div>
             <GameProject 

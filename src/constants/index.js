@@ -225,7 +225,7 @@ const projectsGames = [
     ],
     image: breakdot,
     repo: '#',
-    demo: '/breadot',
+    demo: '/breakdot',
     data: {
       title: 'super_hack_attack',
       video: 'https://www.youtube.com/watch?v=gZBLx_ptKro'
