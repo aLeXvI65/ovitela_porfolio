@@ -53,11 +53,12 @@ i18n
           projects: {
             case_studies: 'CASE STUDIES',
             projects: 'PROJECTS',
-            description: `These projects highlight my proficiency through practical examples of my work, 
-            providing concise descriptions of the project I worked with evidence, and links to repositories and live demos. 
-            They illustrate my capability to address complex challenges, adapt to different technologies, 
-            and manage projects effectively.`,
+            description: `Below are some of the projects I have worked on both for companies and individually. 
+            Since I have worked on various types of projects, I have decided to show them in the following categories.`,
             more_info: 'MORE INFO',
+            games_and_interactive: 'Games and Interactive Applications',
+            web_applications: 'We Apps',
+            research_tools: 'Research Tools',
             games_I_worked: 'Games I\'ve worked',
             super_hack_attack: "Super Hack Attack",
             super_hack_attack_desc: `Super Hack Attack is a game I worked on with the independent studio Ectoplasma GS, 
@@ -67,6 +68,10 @@ i18n
             and gameplay. The game includes 3 environments, 7 characters, and 8 power-ups, as well as special abilities for 
             each character. Although the game demo cannot be shown yet due to its development state, below you can see a 
             simple video showcasing what we currently have in the game. I hope you enjoy it!`,
+            breakdot: "BreakDot",
+            breakdot_desc: `BreakDot is a fast-paced puzzle game that I developed entirely on my own in 2017. It was 
+            programmed in Unity 2017 and released on the Google Play Store for Android (currently unavailable). 
+            Below, you can watch a video of the game trailer and some screen shoots.`,
           },
           experience: {
             done_so_far: 'WHAT I\'VE DONE SO FAR',
@@ -147,10 +152,11 @@ i18n
           projects: {
             case_studies: 'CASOS DE ESTUDIO',
             projects: 'PROYECTOS',
-            description: `Estos proyectos destacan mi competencia a través de ejemplos prácticos de mi trabajo, 
-            proporcionando descripciones concisas de los proyectos en los que he trabajao, y enlaces a repositorios 
-            de código y demostraciones en vivo. Ilustran mi capacidad para abordar desafíos complejos, 
-            adaptarme a diferentes tecnologías y gestionar proyectos de manera efectiva`,
+            description: `A continuación dejo algunos de los proyectos en los que he trabajado tanto para empresas como individualmente. 
+            Ya que he trabajado en varios tipos diferentes de proyectos, he decidido mostrarlos en las siguientes categorías.`,
+            games_and_interactive: 'Juegos y aplicaciones interactivas',
+            web_applications: 'Aplicaciones Web',
+            research_tools: 'Herramientas de Desarrollo',
             more_info: 'MAS INFO',
             games_I_worked: 'Juegos en los que he Trabajado',
             super_hack_attack: "Super Hack Attack",
@@ -161,6 +167,10 @@ i18n
             personajes, escenarios, power ups, settings y gameplay. El juego cuenta con 3 escenarios, 7 personajes y 8 powerups
             así como habilidades especiales para cada personaje. Si bien no se puede mostrar el demo del juego aún debido a su estado
             en desarrolo, a continuación puedes ver un video sencillo mostrando lo que se tiene actualmente en el juego. ¡Espero que lo disfrutes!`,
+            breakdot: "BreakDot",
+            breakdot_desc: `BreakDot es un juego de puzzles con agilidad que desarrollé completamente solo en el 2017, 
+            programado en Unity 2017 y lanzado a la tienda de google play store para Android (actualmente no disponible). A continuación puedes ver
+            un video del trailer del juego y también algunas capturas de pantalla.`,
           },
           experience: {
             done_so_far: 'LO QUE HE HECHO HASTA AHORA',

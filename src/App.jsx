@@ -11,6 +11,7 @@ import {
 
 import HomePage from './pages/home';
 import SuperHackAttack from './pages/projects/superHackAttack';
+import BreakDot from './pages/projects/breakdot';
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/super_hack_attack" element={<SuperHackAttack />} />
+          <Route path="/breakdot" element={<BreakDot />} />
         </Routes>
         
       </div>

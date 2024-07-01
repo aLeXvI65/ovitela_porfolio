@@ -67,7 +67,7 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import superHackAttack from './projects/super_hack_attack.png';
-import leaderboard from './projects/leaderboard.png';
+import breakdot from './projects/breakdot.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
@@ -124,7 +124,7 @@ export {
   typescript,
   typescript_info,
   superHackAttack,
-  leaderboard,
+  breakdot,
   math,
   movie,
   nyeusi,

@@ -139,8 +139,9 @@ const Projects = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
+          <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.games_and_interactive')}</div>
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {projectsGames.map((project, index) => (
+          {projectsGames.map((project, index) => ( 
             <ProjectCard
               key={project.id}
               index={index}
