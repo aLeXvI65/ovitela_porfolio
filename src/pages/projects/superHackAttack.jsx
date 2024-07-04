@@ -6,6 +6,8 @@ import {
 
   import { Values } from '../../constants';
 
+  import video from '/src/assets/videos/Hack_Demo.mp4';
+
 const SuperHackAttack = () => {
 
     let env = window.location.toString().includes('localhost') ? 'local' : 'production';
@@ -18,7 +20,7 @@ const SuperHackAttack = () => {
             <GameProject 
             gameTitle={'super_hack_attack'} 
             description={'super_hack_attack_desc'} 
-            video={ ((env === 'production') ? '' : '/src') + '/assets/videos/Hack_Demo.mp4'}
+            video={video}
             videoType={'video'} />
         </div>
     );
