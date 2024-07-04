@@ -55,6 +55,10 @@
   margin: 1rem;
 }
 
+.projectSection {
+  max-height: 45rem;
+}
+
 .nav-links:hover::after {
   width: 70%;
 }

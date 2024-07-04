@@ -116,7 +116,7 @@ const ProjectCard = ({
 
 const Projects = () => {
   const { t, i18n } = useTranslation();
-  const [active, setActive] = useState('project-2');
+  const [active, setActive] = useState('project-1');
 
   return (
     <div className="-mt-[6rem]">
@@ -138,7 +138,7 @@ const Projects = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        className={`${styles.innerWidth} mx-auto flex flex-col projectSection`}>
           <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.games_and_interactive')}</div>
           <div className='mt-[2rem] text-timberWolf md:text-[18px] sm:text-[16px] xs:text-[14px] text-[14px] font-poppins'>{t('projects.games_and_interactive_desc')}</div>
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
@@ -159,7 +159,7 @@ const Projects = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        className={`${styles.innerWidth} mx-auto flex flex-col projectSection`}>
           <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.web_applications')}</div>
           <div className='mt-[2rem] text-timberWolf md:text-[18px] sm:text-[16px] xs:text-[14px] text-[14px] font-poppins'>{t('projects.web_applications_desc')}</div>
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
@@ -180,7 +180,7 @@ const Projects = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        className={`${styles.innerWidth} mx-auto flex flex-col projectSection`}>
           <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.research_tools')}</div>
           <div className='mt-[2rem] text-timberWolf md:text-[18px] sm:text-[16px] xs:text-[14px] text-[14px] font-poppins'>{t('projects.research_tools_desc')}</div>
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
