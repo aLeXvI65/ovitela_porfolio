@@ -12,6 +12,7 @@ import {
 import HomePage from './pages/home';
 import SuperHackAttack from './pages/projects/superHackAttack';
 import BreakDot from './pages/projects/breakdot';
+import ZumoBall from './pages/projects/zumoball';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/super_hack_attack" element={<SuperHackAttack />} />
           <Route path="/breakdot" element={<BreakDot />} />
+          <Route path="/zumo_ball" element={<ZumoBall />} />
         </Routes>
         
       </div>

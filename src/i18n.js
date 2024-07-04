@@ -1,6 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import { breakdot } from './assets';
 
 i18n
   // detect user language
@@ -54,13 +55,23 @@ i18n
             case_studies: 'CASE STUDIES',
             projects: 'PROJECTS',
             description: `Below are some of the projects I have worked on both for companies and individually. 
-            Since I have worked on various types of projects, I have decided to show them in the following categories.`,
+            Since I have worked on various types of projects, I have decided to show them in the following 3 categories.`,
             more_info: 'MORE INFO',
             games_and_interactive: 'Games and Interactive Applications',
+            games_and_interactive_desc: `I have worked on more than 15 video game development and interactive application 
+            projects, mainly with Unity, developing for mobile and desktop platforms, and using advanced tools such as VR, 
+            HoloLens, Tobii, LeapMotion, and more.`,
             web_applications: 'We Apps',
+            web_applications_desc: `I have worked on more than 10 web development projects for professional companies, 
+            which include technologies such as HTML, CSS, JavaScript, Node.js, React.js, .NET, MongoDB, SQL Server, MySQL, 
+            PHP, and many more.`,
             research_tools: 'Research Tools',
+            research_tools_desc: `Lastly, I have also developed multiple research projects, which include application 
+            development in C++ with Computer Vision, Machine Learning, Data Analysis, Optimization, and the implementation 
+            of Mathematical Models.`,
             games_I_worked: 'Games I\'ve worked',
             super_hack_attack: "Super Hack Attack",
+            super_hack_attack_title: "An awesome puzzle-fighting game currently in development.",
             super_hack_attack_desc: `Super Hack Attack is a game I worked on with the independent studio Ectoplasma GS, 
             where I served as the lead developer, being responsible for over 95% of the game's programming, which is 
             developed with Unity and C#. This game is currently in the Demo phase, and preparations are being made to 
@@ -69,9 +80,20 @@ i18n
             each character. Although the game demo cannot be shown yet due to its development state, below you can see a 
             simple video showcasing what we currently have in the game. I hope you enjoy it!`,
             breakdot: "BreakDot",
+            breakdot_title: "A puzzle game developed by my self in 2016",
             breakdot_desc: `BreakDot is a fast-paced puzzle game that I developed entirely on my own in 2017. It was 
             programmed in Unity 2017 and released on the Google Play Store for Android (currently unavailable). 
             Below, you can watch a video of the game trailer and some screen shoots.`,
+            zumoball: "Zumo Ball",
+            zumoball_title: "The first game I published, a funny platform adventure!",
+            zumoball_desc: `Zumo Ball is the first game I published, which I developed entirely on my own and released 
+            in 2015 for mobile devices. This platform adventure uses the mobile's accelerometer to move between platforms. 
+            Here you can watch a video of the game in action, also, you can download the demo using the button below. I hope you enjoy it!`,
+            pvz: "Plants VS Zombies Test",
+            pvz_title: "A Plants VS Zombie test I made in less than 3 days!",
+            pvz_desc: `Some time ago, I developed a game test for Plants VS Zombies and decided to include it here. 
+            I developed the game in less than 3 days, and it includes 5 types of plants and 5 types of zombies with 4 
+            levels and varying difficulty. You can download the demo using the button below. I hope you enjoy it!`,
           },
           experience: {
             done_so_far: 'WHAT I\'VE DONE SO FAR',
@@ -153,13 +175,20 @@ i18n
             case_studies: 'CASOS DE ESTUDIO',
             projects: 'PROYECTOS',
             description: `A continuación dejo algunos de los proyectos en los que he trabajado tanto para empresas como individualmente. 
-            Ya que he trabajado en varios tipos diferentes de proyectos, he decidido mostrarlos en las siguientes categorías.`,
+            Ya que he trabajado en varios tipos diferentes de proyectos, he decidido mostrarlos en las siguientes 3 categorías.`,
             games_and_interactive: 'Juegos y aplicaciones interactivas',
+            games_and_interactive_desc: `He trabajado en más de 15 proyectos de desarrollo de videojuegos y aplicaciones interactivas 
+            principalmente con Unity, desarrollando tanto para móviles, escritorio y con herramientas avanzadas como VR, Hololens, Tobii, LeapMotion y más.`,
             web_applications: 'Aplicaciones Web',
-            research_tools: 'Herramientas de Desarrollo',
+            web_applications_desc: `He trabajado en más de 10 proyectos de desarrollo web para empresas profesionales los cuales incluyen tecnologías como 
+            HTMl, CSS; JavaScript, Node.js, React.js, .NET, MongoDB, SQL Server, MySQL, PHP y muchas más.`,
+            research_tools: 'Desarrollo para investigación',
+            research_tools_desc: `Por último, también he desarrollado múltiples proyectos con fines de investigación, los cuales incluyen desarrollo de 
+            aplicaciones en C++ con Visión Computacional, Aprendizaje de Máquina, Análisis de Datos, Optimización e implementación de modelos Matemáticos`,
             more_info: 'MAS INFO',
             games_I_worked: 'Juegos en los que he Trabajado',
             super_hack_attack: "Super Hack Attack",
+            super_hack_attack_title: "Un increíble juego tipo puzzle-fighting que aún se encuentra en desarrollo.",
             super_hack_attack_desc: `Super Hack Attack es un juego en el que he trabajado con el estudio 
             independiente Ectoplasma GS donde trabajé como el desarrollador principal, siendo responsable de más del 95 %
             de la programación del juego, el cual esta desarrollado con Unity y C#. Este juego se encuentra en fase de Demo
@@ -168,9 +197,20 @@ i18n
             así como habilidades especiales para cada personaje. Si bien no se puede mostrar el demo del juego aún debido a su estado
             en desarrolo, a continuación puedes ver un video sencillo mostrando lo que se tiene actualmente en el juego. ¡Espero que lo disfrutes!`,
             breakdot: "BreakDot",
+            breakdot_title: "Un juego de puzzle desarrollado por mí en 2016",
             breakdot_desc: `BreakDot es un juego de puzzles con agilidad que desarrollé completamente solo en el 2017, 
             programado en Unity 2017 y lanzado a la tienda de google play store para Android (actualmente no disponible). A continuación puedes ver
-            un video del trailer del juego y también algunas capturas de pantalla.`,
+            un video del trailer del juego y también algunas capturas de pantalla. ¡Espero que lo disfrutes!`,
+            zumoball: "Zumo Ball",
+            zumoball_title: "El primer juego que he publicado, una aventura divertida de plataformas.",
+            zumoball_desc: `Zumo Ball es el primer juego que publiqué, lo desarrollé completamente solo lanzandolo en el 2015 para móviles. 
+            Esta aventura de plataformas utiliza el acelerometro del móvil para moverte entre plataformas. Aquí puedes ver un video del juego
+            en acción, además, Puedes descargar el demo en el botón de abajo. ¡Espero que lo disfrutes!`,
+            pvz: "Test de Plantas VS Zombies",
+            pvz_title: "Una prueba de Plantas VS Zombies que hice en menos de 3 días!",
+            pvz_desc: `Hace tiempo se realicé una prueba de desarrollo del juego de Plantas VS Zombies y decidí incluirlo aquí. 
+            El juego lo desarrollé en menos de 3 días e  incluye 5 tipos de plantas y 5 Zombies con 4 niveles y dificultad variable. 
+            Puedes descargar el demo en el botón de abajo. ¡Espero que lo disfrutes!`,
           },
           experience: {
             done_so_far: 'LO QUE HE HECHO HASTA AHORA',

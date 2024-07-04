@@ -25,7 +25,8 @@ import {
   graphql_info,
   superHackAttack,
   breakdot,
-  math,
+  zumo,
+  pvz,
   movie,
   nyeusi,
   space,
@@ -189,7 +190,7 @@ const projectsGames = [
   {
     id: 'project-1',
     name: 'Super Hack Attack',
-    description: 'An awesome puzzle-fighting game currently in development.',
+    description: 'super_hack_attack_title',
     tags: [
       {
         name: 'unity',
@@ -212,7 +213,7 @@ const projectsGames = [
     id: 'project-2',
     name: 'BreakDot',
     description:
-      'A puzzle game developed by my self in 2016',
+      'breakdot_title',
     tags: [
       {
         name: 'unity',
@@ -231,28 +232,44 @@ const projectsGames = [
       video: 'https://www.youtube.com/watch?v=gZBLx_ptKro'
     }
   },
-  // {
-  //   id: 'project-3',
-  //   name: 'Math Magicians',
-  //   description: 'This is a single-page calculator app built with React',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: math,
-  //   repo: 'https://github.com/shaqdeff/Math-Magicians',
-  //   demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  // },
+  {
+    id: 'project-3',
+    name: 'Zumo Ball',
+    description: 'zumoball_title',
+    tags: [
+      {
+        name: 'unity',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'C#',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: zumo,
+    repo: '#',
+    demo: '/zumo_ball',
+    download_demo: '/assets/projects/demos/ZumoBall_Demo_PC.zip',
+  },
+  {
+    id: 'project-3',
+    name: 'Plant VS Zombies test',
+    description: 'pvz_title',
+    tags: [
+      {
+        name: 'unity',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'C#',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: pvz,
+    repo: '#',
+    demo: '/pvz_demo',
+    download_demo: '/assets/projects/demos/PlatsVsZombies_Test_PC.zip',
+  },
   // {
   //   id: 'project-4',
   //   name: 'Movie Metro',

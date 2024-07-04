@@ -68,7 +68,8 @@ import microverse from './company/microverse.png';
 
 import superHackAttack from './projects/super_hack_attack.png';
 import breakdot from './projects/breakdot.png';
-import math from './projects/math-magicians.png';
+import zumo from './projects/zumo_ball.png';
+import pvz from './projects/pvz.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
@@ -125,7 +126,8 @@ export {
   typescript_info,
   superHackAttack,
   breakdot,
-  math,
+  zumo,
+  pvz,
   movie,
   nyeusi,
   space,
