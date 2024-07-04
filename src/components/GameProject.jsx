@@ -8,8 +8,24 @@ import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
 import { useTranslation, Trans } from 'react-i18next';
 
+import 'react-slideshow-image/dist/styles.css'  
+import { Slide } from 'react-slideshow-image';
 
-const GameProject = ( { gameTitle, description, video, videoType } ) => {
+const divStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundSize: 'cover',
+  height: '400px'
+}
+
+const spanStyle = {
+  padding: '20px',
+  background: '#efefef',
+  color: '#000000'
+}
+
+const GameProject = ( { gameTitle, description, video, videoType, demo, images } ) => {
   const { t, i18n } = useTranslation();
 
   // console.log("props: "+JSON.stringify(props));
@@ -29,6 +45,32 @@ const GameProject = ( { gameTitle, description, video, videoType } ) => {
             {t('projects.'+description)}
         </motion.p>
       </div>
+      
+      {
+        (demo) ? 
+          <div>
+            <button
+                className="live-demo flex justify-between 
+                sm:text-[18px] text-[16px] text-timberWolf 
+                font-bold font-beckman items-center py-5 pl-2 pr-3 
+                whitespace-nowrap gap-1 sm:w-[180px] sm:h-[60px] 
+                w-[145px] h-[52px] rounded-[10px] glassmorphism 
+                sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+                hover:text-eerieBlack transition duration-[0.2s] 
+                ease-in-out"
+                onClick={() => window.open(demo, '_blank')}
+                onMouseOver={() => {
+                  
+                }}
+                onMouseOut={() => {
+                  
+                }}>
+                {t('projects.download_demo')}
+            </button>
+          </div>
+        :
+          <div></div>
+      }
 
       <div id="videoPlayer" className='mt-[2rem]'>
         { (videoType === 'youtube') ? (
@@ -44,13 +86,35 @@ const GameProject = ( { gameTitle, description, video, videoType } ) => {
             </iframe>
           </div>
         ) : (
-          <video width="600" controls>
+          <video className='demo_vid' width="600" height="480" controls>
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
         )}
-        
       </div>
+
+        {
+          (images) ?
+            <div className='gallery' >
+              {images.map((imageSrc, index) => ( 
+                <img src={'/src/assets/projects/images/'+gameTitle+'/'+imageSrc+'.png'} width='400' alt={'img_'+index} />    
+              ))}
+            </div>
+            // <div className='gallery' >
+            //   <Slide>
+            //   {images.map((slideImage, index)=> (
+            //       <div key={index}>
+            //         <div style={{ ...divStyle, 'backgroundImage': `url(${'/src/assets/projects/images/'+gameTitle+'/'+slideImage+'.png'})` }}>
+            //           <span style={spanStyle}>{slideImage}</span>
+            //         </div>
+            //       </div>
+            //     ))} 
+            //   </Slide>
+            // </div>
+        :
+          <div className='gallery' ></div>
+        }
+      
 
     </div>
   );

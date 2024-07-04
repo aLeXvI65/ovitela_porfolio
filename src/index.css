@@ -47,9 +47,20 @@
   transition: 0.5s;
 }
 
+.gallery {
+  display: grid;
+}
+
+.gallery img {
+  margin: 1rem;
+}
 
 .nav-links:hover::after {
   width: 70%;
+}
+
+.demo_vid {
+  max-height: 700px;
 }
 
 #about {

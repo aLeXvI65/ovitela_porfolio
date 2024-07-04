@@ -10,8 +10,9 @@ function ZumoBall() {
             <GameProject 
             gameTitle='zumoball' 
             description={'zumoball_desc'} 
-            video={'/src/assets/videos/SPH_1_L_1.mp4'}
+            video={'/src/assets/videos/zumoball_gameplay.mp4'}
             videoType={'video'}
+            demo={'/src/assets/projects/demos/ZumoBall_Demo_PC.zip'}
             />
         </div>
     );

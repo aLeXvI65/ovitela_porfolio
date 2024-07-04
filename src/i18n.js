@@ -57,6 +57,7 @@ i18n
             description: `Below are some of the projects I have worked on both for companies and individually. 
             Since I have worked on various types of projects, I have decided to show them in the following 3 categories.`,
             more_info: 'MORE INFO',
+            download_demo: 'DOWNLOAD DEMO',
             games_and_interactive: 'Games and Interactive Applications',
             games_and_interactive_desc: `I have worked on more than 15 video game development and interactive application 
             projects, mainly with Unity, developing for mobile and desktop platforms, and using advanced tools such as VR, 
@@ -186,6 +187,7 @@ i18n
             research_tools_desc: `Por último, también he desarrollado múltiples proyectos con fines de investigación, los cuales incluyen desarrollo de 
             aplicaciones en C++ con Visión Computacional, Aprendizaje de Máquina, Análisis de Datos, Optimización e implementación de modelos Matemáticos`,
             more_info: 'MAS INFO',
+            download_demo: 'DESCARGAR DEMO',
             games_I_worked: 'Juegos en los que he Trabajado',
             super_hack_attack: "Super Hack Attack",
             super_hack_attack_title: "Un increíble juego tipo puzzle-fighting que aún se encuentra en desarrollo.",
@@ -208,7 +210,7 @@ i18n
             en acción, además, Puedes descargar el demo en el botón de abajo. ¡Espero que lo disfrutes!`,
             pvz: "Test de Plantas VS Zombies",
             pvz_title: "Una prueba de Plantas VS Zombies que hice en menos de 3 días!",
-            pvz_desc: `Hace tiempo se realicé una prueba de desarrollo del juego de Plantas VS Zombies y decidí incluirlo aquí. 
+            pvz_desc: `Hace tiempo realicé una prueba de desarrollo del juego de Plantas VS Zombies y decidí incluirlo aquí. 
             El juego lo desarrollé en menos de 3 días e  incluye 5 tipos de plantas y 5 Zombies con 4 niveles y dificultad variable. 
             Puedes descargar el demo en el botón de abajo. ¡Espero que lo disfrutes!`,
           },

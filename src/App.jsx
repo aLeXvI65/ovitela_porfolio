@@ -7,12 +7,14 @@ import {
   Navbar,
   Tech,
   Projects,
+  Slideshow
 } from './components';
 
 import HomePage from './pages/home';
 import SuperHackAttack from './pages/projects/superHackAttack';
 import BreakDot from './pages/projects/breakdot';
 import ZumoBall from './pages/projects/zumoball';
+import PVZ_Demo from './pages/projects/pvz';
 
 const App = () => {
 
@@ -27,6 +29,7 @@ const App = () => {
           <Route path="/super_hack_attack" element={<SuperHackAttack />} />
           <Route path="/breakdot" element={<BreakDot />} />
           <Route path="/zumo_ball" element={<ZumoBall />} />
+          <Route path="/pvz_demo" element={<PVZ_Demo />} />
         </Routes>
         
       </div>
