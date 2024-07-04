@@ -48,6 +48,10 @@ import {
   java_info,
 } from '../assets';
 
+const Values = {
+  env: "local"
+}
+
 export const navLinks = [
   {
     id: 'about',
@@ -317,4 +321,4 @@ const projectsGames = [
   // },
 ];
 
-export { services, technologies, experiences, projectsGames };
+export { services, technologies, experiences, projectsGames, Values };
