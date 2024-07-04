@@ -28,6 +28,7 @@ const spanStyle = {
 const GameProject = ( { gameTitle, description, video, videoType, demo, images } ) => {
   const { t, i18n } = useTranslation();
 
+  let env = window.location.toString().includes('localhost') ? 'local' : 'production';
   // console.log("props: "+JSON.stringify(props));
   console.log("title: "+gameTitle);
 
@@ -97,7 +98,7 @@ const GameProject = ( { gameTitle, description, video, videoType, demo, images }
           (images) ?
             <div className='gallery' >
               {images.map((imageSrc, index) => ( 
-                <img src={'/src/assets/projects/images/'+gameTitle+'/'+imageSrc+'.png'} width='400' alt={'img_'+index} />    
+                <img src={((env === 'production') ? '' : '/src') + '/src/assets/projects/images/'+gameTitle+'/'+imageSrc+'.png'} width='400' alt={'img_'+index} />    
               ))}
             </div>
             // <div className='gallery' >

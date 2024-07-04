@@ -5,6 +5,9 @@ import {
   } from '../../components';
 
 function PVZ_Demo() {
+
+    let env = window.location.toString().includes('localhost') ? 'local' : 'production';
+
     return (
         <div>
             <GameProject 
@@ -12,7 +15,7 @@ function PVZ_Demo() {
             description={'pvz_desc'} 
             video={'/src/assets/videos/pvz_gameplay.mp4'}
             videoType={'video'}
-            demo={'/src/assets/projects/demos/PlatsVsZombies_Test_PC.zip'}
+            demo={((env === 'production') ? '' : '/src') + '/src/assets/projects/demos/PlatsVsZombies_Test_PC.zip'}
             />
         </div>
     );

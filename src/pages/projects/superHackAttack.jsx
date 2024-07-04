@@ -8,14 +8,17 @@ import {
 
 const SuperHackAttack = () => {
 
-    console.log("env: "+Values.env);
+    let env = window.location.toString().includes('localhost') ? 'local' : 'production';
+    console.log("sitio: "+window.location);
+    console.log("env: "+env);
+    
 
     return (
         <div>
             <GameProject 
             gameTitle={'super_hack_attack'} 
             description={'super_hack_attack_desc'} 
-            video={ ((Values.env === 'production') ? '' : '/src') + '/assets/videos/Hack_Demo.mp4'}
+            video={ ((env === 'production') ? '' : '/src') + '/assets/videos/Hack_Demo.mp4'}
             videoType={'video'} />
         </div>
     );
