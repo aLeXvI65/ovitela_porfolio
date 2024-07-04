@@ -49,7 +49,7 @@ import {
 } from '../assets';
 
 const Values = {
-  env: "local"
+  env: "production"
 }
 
 export const navLinks = [
