@@ -98,7 +98,7 @@ const GameProject = ( { gameTitle, description, video, videoType, demo, images }
           (images) ?
             <div className='gallery' >
               {images.map((imageSrc, index) => ( 
-                <img src={((env === 'production') ? '' : '/src') + '/src/assets/projects/images/'+gameTitle+'/'+imageSrc+'.png'} width='400' alt={'img_'+index} />    
+                <img src={imageSrc} width='400' alt={'img_'+index} />    
               ))}
             </div>
             // <div className='gallery' >

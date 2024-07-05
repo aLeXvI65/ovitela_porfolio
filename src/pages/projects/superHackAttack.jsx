@@ -14,7 +14,6 @@ const SuperHackAttack = () => {
     console.log("sitio: "+window.location);
     console.log("env: "+env);
     
-
     return (
         <div>
             <GameProject 
