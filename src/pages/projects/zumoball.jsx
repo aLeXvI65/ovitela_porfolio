@@ -15,7 +15,7 @@ function ZumoBall() {
             description={'zumoball_desc'} 
             video={video}
             videoType={'video'}
-            demo={'#'}
+            demo={'ZumoBall_Demo_PC_uenqd930'}
             />
         </div>
     );

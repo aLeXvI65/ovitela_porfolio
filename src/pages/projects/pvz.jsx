@@ -4,6 +4,9 @@ import {
     GameProject,
   } from '../../components';
 
+// import demo from '/src/assets/projects/demos/PlatsVsZombies_Test_PC.zip';
+import video from '/src/assets/videos/pvz_gameplay.mp4';
+
 function PVZ_Demo() {
 
     let env = window.location.toString().includes('localhost') ? 'local' : 'production';
@@ -13,9 +16,9 @@ function PVZ_Demo() {
             <GameProject 
             gameTitle='pvz' 
             description={'pvz_desc'} 
-            video={'/src/assets/videos/pvz_gameplay.mp4'}
+            video={video}
             videoType={'video'}
-            demo={((env === 'production') ? '' : '/src') + '/src/assets/projects/demos/PlatsVsZombies_Test_PC.zip'}
+            demo={'PlatsVsZombies_Test_PC_apcei3192'}
             />
         </div>
     );

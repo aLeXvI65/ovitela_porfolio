@@ -162,7 +162,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col projectSection`}>
           <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.web_applications')}</div>
           <div className='mt-[2rem] text-timberWolf md:text-[18px] sm:text-[16px] xs:text-[14px] text-[14px] font-poppins'>{t('projects.web_applications_desc')}</div>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        {/* <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {projectsGames.map((project, index) => ( 
             <ProjectCard
               key={project.id}
@@ -172,7 +172,7 @@ const Projects = () => {
               handleClick={setActive}
             />
           ))}
-        </div>
+        </div> */}
       </motion.div>
 
       <motion.div
@@ -183,7 +183,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col projectSection`}>
           <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.research_tools')}</div>
           <div className='mt-[2rem] text-timberWolf md:text-[18px] sm:text-[16px] xs:text-[14px] text-[14px] font-poppins'>{t('projects.research_tools_desc')}</div>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        {/* <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {projectsGames.map((project, index) => ( 
             <ProjectCard
               key={project.id}
@@ -193,7 +193,7 @@ const Projects = () => {
               handleClick={setActive}
             />
           ))}
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );

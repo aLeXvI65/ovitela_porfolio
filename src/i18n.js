@@ -60,16 +60,16 @@ i18n
             download_demo: 'DOWNLOAD DEMO',
             games_and_interactive: 'Games and Interactive Applications',
             games_and_interactive_desc: `I have worked on more than 15 video game development and interactive application 
-            projects, mainly with Unity, developing for mobile and desktop platforms, and using advanced tools such as VR, 
+            projects, mainly with Unity and a little bit with Unreal, developing for mobile and desktop platforms, and using advanced tools such as VR, 
             HoloLens, Tobii, LeapMotion, and more.`,
             web_applications: 'We Apps',
             web_applications_desc: `I have worked on more than 10 web development projects for professional companies, 
-            which include technologies such as HTML, CSS, JavaScript, Node.js, React.js, .NET, MongoDB, SQL Server, MySQL, 
-            PHP, and many more.`,
+            which include technologies such as HTML, CSS, JavaScript, Node.js, React.js, .NET, MongoDB, GraphQL, SQL Server, MySQL, 
+            PHP, java, and many more. This section is still under development.`,
             research_tools: 'Research Tools',
             research_tools_desc: `Lastly, I have also developed multiple research projects, which include application 
             development in C++ with Computer Vision, Machine Learning, Data Analysis, Optimization, and the implementation 
-            of Mathematical Models.`,
+            of Mathematical Models. This section is still under development.`,
             games_I_worked: 'Games I\'ve worked',
             super_hack_attack: "Super Hack Attack",
             super_hack_attack_title: "An awesome puzzle-fighting game currently in development.",
@@ -100,7 +100,7 @@ i18n
             done_so_far: 'WHAT I\'VE DONE SO FAR',
             work_experience: 'WORK EXPERIENCE',
             experience_card_1: {
-              title: 'Full Stack Developer',
+              title: 'Full Stack Junior Developer',
               company: 'Manuvo',
               date_range: 'Jul 2014 - Dic 2014'
             },
@@ -179,13 +179,13 @@ i18n
             Ya que he trabajado en varios tipos diferentes de proyectos, he decidido mostrarlos en las siguientes 3 categorías.`,
             games_and_interactive: 'Juegos y aplicaciones interactivas',
             games_and_interactive_desc: `He trabajado en más de 15 proyectos de desarrollo de videojuegos y aplicaciones interactivas 
-            principalmente con Unity, desarrollando tanto para móviles, escritorio y con herramientas avanzadas como VR, Hololens, Tobii, LeapMotion y más.`,
+            principalmente con Unity y un poco con Unreal, desarrollando tanto para móviles, escritorio y con herramientas avanzadas como VR, Hololens, Tobii, LeapMotion y más.`,
             web_applications: 'Aplicaciones Web',
             web_applications_desc: `He trabajado en más de 10 proyectos de desarrollo web para empresas profesionales los cuales incluyen tecnologías como 
-            HTMl, CSS; JavaScript, Node.js, React.js, .NET, MongoDB, SQL Server, MySQL, PHP y muchas más.`,
+            HTMl, CSS; JavaScript, Node.js, React.js, .NET, MongoDB, GraphQL, SQL Server, MySQL, PHP, java y muchas más. Esta sección aun se encuentra en desarrollo.`,
             research_tools: 'Desarrollo para investigación',
             research_tools_desc: `Por último, también he desarrollado múltiples proyectos con fines de investigación, los cuales incluyen desarrollo de 
-            aplicaciones en C++ con Visión Computacional, Aprendizaje de Máquina, Análisis de Datos, Optimización e implementación de modelos Matemáticos`,
+            aplicaciones en C++ con Visión Computacional, Aprendizaje de Máquina, Análisis de Datos, Optimización e implementación de modelos Matemáticos. Esta sección aun se encuentra en desarrollo.`,
             more_info: 'MAS INFO',
             download_demo: 'DESCARGAR DEMO',
             games_I_worked: 'Juegos en los que he Trabajado',
@@ -218,7 +218,7 @@ i18n
             done_so_far: 'LO QUE HE HECHO HASTA AHORA',
             work_experience: 'MI EXPERIENCIA DE TRABAJO',
             experience_card_1: {
-              title: 'Desarrollador Full Stack',
+              title: 'Desarrollador Full Stack Junior',
               company: 'Manuvo',
               date_range: 'Jul 2014 - Dic 2014'
             },

@@ -28,6 +28,15 @@ const spanStyle = {
 const GameProject = ( { gameTitle, description, video, videoType, demo, images } ) => {
   const { t, i18n } = useTranslation();
 
+  const handleDownloadDemo = () => {
+    const link = document.createElement('a');
+    link.href = `${window.location.toString().split('/')[0]}/${demo}.zip`;
+    link.download = demo+'.zip';
+    console.log("Downloading from: "+link.href);
+    console.log("File: "+link.download);
+    link.click();
+  };
+
   let env = window.location.toString().includes('localhost') ? 'local' : 'production';
   // console.log("props: "+JSON.stringify(props));
   console.log("title: "+gameTitle);
@@ -59,7 +68,8 @@ const GameProject = ( { gameTitle, description, video, videoType, demo, images }
                 sm:mt-[22px] mt-[16px] hover:bg-battleGray 
                 hover:text-eerieBlack transition duration-[0.2s] 
                 ease-in-out"
-                onClick={() => window.open(demo, '_blank')}
+                // onClick={() => window.open(demo, '_blank')}
+                onClick={handleDownloadDemo}
                 onMouseOver={() => {
                   
                 }}
