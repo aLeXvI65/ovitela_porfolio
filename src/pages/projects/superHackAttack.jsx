@@ -4,9 +4,11 @@ import {
     GameProject
   } from '../../components';
 
-  import { Values } from '../../constants';
 
-  import video from '/src/assets/videos/Hack_Demo.mp4';
+
+  import { videos } from '../../constants';
+
+  
 
 const SuperHackAttack = () => {
 
@@ -19,7 +21,7 @@ const SuperHackAttack = () => {
             <GameProject 
             gameTitle={'super_hack_attack'} 
             description={'super_hack_attack_desc'} 
-            video={video}
+            video={videos.hackVideo}
             videoType={'video'} />
         </div>
     );

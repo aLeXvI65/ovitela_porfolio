@@ -74,6 +74,8 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
+import hackVideo from './videos/Hack_Demo.mp4';
+
 export {
   bwmap,
   nairobi,
@@ -143,4 +145,5 @@ export {
   mysql_info,
   java,
   java_info,
+  hackVideo,
 };

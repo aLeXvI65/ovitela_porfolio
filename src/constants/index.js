@@ -46,6 +46,7 @@ import {
   mysql_info,
   java,
   java_info,
+  hackVideo,
 } from '../assets';
 
 const Values = {
@@ -190,6 +191,10 @@ const experiences = [
   },
 ];
 
+const videos = {
+  hackVideo: hackVideo
+}
+
 const projectsGames = [
   {
     id: 'project-1',
@@ -321,4 +326,4 @@ const projectsGames = [
   // },
 ];
 
-export { services, technologies, experiences, projectsGames, Values };
+export { services, technologies, experiences, projectsGames, Values, videos };
