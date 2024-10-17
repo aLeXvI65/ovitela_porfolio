@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { github, pineapple, pineappleHover, moreInfo, moreInfoHover } from '../assets';
-import { projectsGames } from '../constants';
+import { projectsGames, projectsWeb } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
 import { useTranslation, Trans } from 'react-i18next';
@@ -117,6 +117,7 @@ const ProjectCard = ({
 const Projects = () => {
   const { t, i18n } = useTranslation();
   const [active, setActive] = useState('project-1');
+  const [webActive, setWebActive] = useState('project-web-1');
 
   return (
     <div className="-mt-[6rem]">
@@ -162,17 +163,17 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col projectSection`}>
           <div className='mt-[2rem] text-timberWolf md:text-[45px] sm:text-[38px] xs:text-[30px] text-[20px] font-poppins'>{t('projects.web_applications')}</div>
           <div className='mt-[2rem] text-timberWolf md:text-[18px] sm:text-[16px] xs:text-[14px] text-[14px] font-poppins'>{t('projects.web_applications_desc')}</div>
-        {/* <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {projectsGames.map((project, index) => ( 
+        { <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+          {projectsWeb.map((project, index) => ( 
             <ProjectCard
               key={project.id}
               index={index}
               {...project}
-              active={active}
-              handleClick={setActive}
+              active={webActive}
+              handleClick={setWebActive}
             />
           ))}
-        </div> */}
+        </div> }
       </motion.div>
 
       <motion.div

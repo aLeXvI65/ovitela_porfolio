@@ -62,7 +62,7 @@ i18n
             games_and_interactive_desc: `I have worked on more than 15 video game development and interactive application 
             projects, mainly with Unity and a little bit with Unreal, developing for mobile and desktop platforms, and using advanced tools such as VR, 
             HoloLens, Tobii, LeapMotion, and more.`,
-            web_applications: 'We Apps',
+            web_applications: 'Web Apps',
             web_applications_desc: `I have worked on more than 10 web development projects for professional companies, 
             which include technologies such as HTML, CSS, JavaScript, Node.js, React.js, .NET, MongoDB, GraphQL, SQL Server, MySQL, 
             PHP, java, and many more. This section is still under development.`,
@@ -80,6 +80,9 @@ i18n
             and gameplay. The game includes 3 environments, 7 characters, and 8 power-ups, as well as special abilities for 
             each character. Although the game demo cannot be shown yet due to its development state, below you can see a 
             simple video showcasing what we currently have in the game. I hope you enjoy it!`,
+            gameloop: "Game Loop",
+            gameloop_title: "A social network web app made for gamer community.",
+            gameloop_desc: `Game Loop is a social network app I made as show of my skills with React JS and Next JS technologies!`,
             breakdot: "BreakDot",
             breakdot_title: "A puzzle game developed by my self in 2016",
             breakdot_desc: `BreakDot is a fast-paced puzzle game that I developed entirely on my own in 2017. It was 
@@ -198,6 +201,9 @@ i18n
             personajes, escenarios, power ups, settings y gameplay. El juego cuenta con 3 escenarios, 7 personajes y 8 powerups
             así como habilidades especiales para cada personaje. Si bien no se puede mostrar el demo del juego aún debido a su estado
             en desarrolo, a continuación puedes ver un video sencillo mostrando lo que se tiene actualmente en el juego. ¡Espero que lo disfrutes!`,
+            gameloop: "Game Loop",
+            gameloop_title: "Una aplicación web de red social creada para al comunidad gamer.",
+            gameloop_desc: `Game Loop es una aplicación web de red social que desarrollé para mostrar mis habilidades con las tecnologías React JS and Next JS!`,
             breakdot: "BreakDot",
             breakdot_title: "Un juego de puzzle desarrollado por mí en 2016",
             breakdot_desc: `BreakDot es un juego de puzzles con agilidad que desarrollé completamente solo en el 2017, 

@@ -195,6 +195,53 @@ const videos = {
   hackVideo: hackVideo
 }
 
+const projectsWeb = [
+  {
+    id: 'project-web-1',
+    name: 'GameLoop Social Network',
+    description: 'gameloop_title',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: superHackAttack,
+    repo: '#',
+    demo: '/gameloop',
+    data: {
+      title: 'gameloop',
+      video: ''
+    }
+  },
+  {
+    id: 'project-web-2',
+    name: 'GameLoop Social Network',
+    description: 'gameloop_title',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: superHackAttack,
+    repo: '#',
+    demo: '/gameloop',
+    data: {
+      title: 'gameloop',
+      video: ''
+    }
+  },
+];
+
 const projectsGames = [
   {
     id: 'project-1',
@@ -326,4 +373,4 @@ const projectsGames = [
   // },
 ];
 
-export { services, technologies, experiences, projectsGames, Values, videos };
+export { services, technologies, experiences, projectsGames, projectsWeb, Values, videos };
